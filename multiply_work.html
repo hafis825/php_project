@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiply</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .head-info{
+        margin-top: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-info{
+        margin: 0 auto;
+        margin-top: 210px;
+        padding: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        border-radius: 12px;
+        background-color: rgba(211, 211, 211, 0.7);
+        font-size: 24px;
+    }
+
+
+
+</style>
+
+<body>
+    <div class="head-info">
+        <h2>โปรแกรมสร้างสูตรคูณแม่ ที่ต้องการ</h2>
+    </div>
+    <div class="form-info">
+        <form action="process_multiply.php" method="post">
+            
+            <label for="">ป้อนแม่ที่ต้องการ</label>
+            <input type="number" name="m">
+            <br>
+            <label for="">ป้อนเลขสุดท้ายที่ต้องการคูณ</label>
+            <input type="number" name="num">
+            <br>
+            <label for="">ป้อนเลขแรกที่ต้องการคูณ</label>
+            <input type="number" name="pre">
+            <br>
+
+
+            <input type="submit" value="check">
+        </form>
+    </div>
+</body>
+</html>
